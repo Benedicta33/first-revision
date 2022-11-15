@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LETt</title>
+    <link rel="stylesheet" href="let.js">
+</head>
+<body>
+    <h1>Global scope
+    <p>In a programming environment the global scope is the scope that contains and is visible in all other scope</p>
+
+    <p id="kate"></p>
+    <script>
+        var surName ="catherine";
+        myfunction();
+        
+        function myfunction() {
+            document.getElementById("kate").innerHTML="i can display"+surName;
+        }
+    </script>
+    
+</body>
+</html>

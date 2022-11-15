@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>const</title>
+    <link rel="stylesheet" href="const.js">
+</head>
+<body>
+    <p>This means that the value of a variable declared with const remains the same within its scope. It cannot be updated or re-declared.</p>
+    <p id="kate"></p>
+    <script>
+      // create an object:
+       const car = {type:"venza",model:"600",color:"red"};
+       // change a property:
+       Car.color = "black";
+       //Add a property:
+       Car.owner = "catherine";
+       // Display the property:
+       document.getElementById("kate").innerHTML= "Car owner is"+ Car.owner;
+    // </script>
+
+    <h1>By declaring a Variable we can also const</h1>
+    <script>
+      var j = 8
+      //Here j is 8
+      {
+         const f = 4
+         // Here f is 4
+      }
+      //Here j is 8
+      document.getElementById("kate").innerHTML= j
+    </script>
+</body>
+</html>
